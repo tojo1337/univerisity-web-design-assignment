@@ -1,0 +1,19 @@
+.sample-nav {
+    background-color: black !important;
+}
+.sample-brand{
+    color: aquamarine;
+}
+.sample-brand:hover {
+    color: cyan !important;
+}
+.sample-anchor {
+    color: whitesmoke !important;
+}
+.sample-anchor:hover {
+    color: black !important;
+    background-color: white;
+}
+.sample-btn:hover {
+    background-color: whitesmoke;
+}
