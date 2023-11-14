@@ -1,3 +1,7 @@
+body{
+    height: 100%;
+    width: 100%;
+}
 .sample-head {
     background-color: black !important;
 }
@@ -17,18 +21,26 @@
 .sample-btn:hover {
     background-color: whitesmoke;
 }
-html,body{
-    height:100%
-}
 .sample-body {
     height: 100%;
     min-height: 100%;
     background-color: #212121;
 }
-.sample-table {
-    /*
-    * Learn how to override the background color
-    */
+.sample-pad-1 {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.carousel-inner {
+    height: 500px;
+}
+.sample-table > thead > tr > th {
+    background-color: #303030;
+}
+.sample-table > tbody > tr > th {
+    background-color: #212121;
+}
+.sample-table > tbody > tr > td {
+    background-color: #212121;
 }
 .sample-footer {
     height: 40px;
