@@ -1,6 +1,7 @@
-body{
-    height: 100%;
+body {
+    height: 100vh;
     width: 100%;
+    overflow-x: hidden;
 }
 .sample-head {
     background-color: black !important;
@@ -14,6 +15,15 @@ body{
 .sample-anchor {
     color: whitesmoke !important;
 }
+.sample-anchor-nonOutline {
+    color: #000000;
+    background-color: whitesmoke;
+    border-radius: 0% !important;
+}
+.sample-anchor-nonOutline:hover {
+    color: #000000;
+    background-color: antiquewhite;
+}
 .sample-anchor:hover {
     color: #000000 !important;
     background-color: white;
@@ -23,7 +33,7 @@ body{
 }
 .sample-body {
     height: 100%;
-    min-height: 100%;
+    min-height: 100vh;
     background-color: #212121;
 }
 .sample-pad-1 {
@@ -33,17 +43,86 @@ body{
 .carousel-inner {
     height: 500px;
 }
+/*
+.sample-list {
+}
+*/
+.sample-group-item {
+    color: whitesmoke;
+    background-color: #303030;
+    border-color: #303030;
+}
+.sample-group-item:hover {
+    background-color: #424242;
+}
+.sample-group-item-active {
+    background-color: #424242;
+}
 .sample-table > thead > tr > th {
+    color: whitesmoke;
     background-color: #303030;
 }
 .sample-table > tbody > tr > th {
+    color: whitesmoke;
     background-color: #212121;
 }
 .sample-table > tbody > tr > td {
+    color: whitesmoke;
     background-color: #212121;
+}
+.sample-pad {
+    padding-top: 10px;
 }
 .sample-footer {
     height: 40px;
     color: #ffffff;
     background-color: #000000;
+}
+.sample-form {
+    color: whitesmoke;
+}
+.sample-flex {
+    /*height: 100vh;*/
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sample-box{
+    margin: auto;
+    padding: 10px;
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: #303030;
+    color: whitesmoke;
+    background-color: #303030;
+}
+.about-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sample-input {
+    border-radius: 0% !important;
+}
+.sample-form-box {
+    padding: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sample-form-inner-box {
+    padding: 10px;
+    border-radius: 2%;
+    background-color: #424242;
+}
+.sample-anchor-footer {
+    padding: 10px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
+.sample-anchor-footer:hover {
+    color: antiquewhite;
 }
