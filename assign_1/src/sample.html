@@ -9,8 +9,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
-    <script src="./resource/js/lib/jquery-3.7.1.min.js.js"></script>
-    <script src="./resource/js/sample.js"></script>
     <link href="./resource/static/css/sample.css" rel="stylesheet">
     <link rel="icon" href="./resource/static/img/cricket_logo.ico" type="image/x-icon/">
     <title>Cricket website</title>
@@ -48,7 +46,7 @@
                             aria-selected="false">About US</a>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <a class="nav-link sample-anchor" id="subscribe-tab" data-bs-toggle="tab"
+                        <a class="nav-link sample-anchor-special" id="subscribe-tab" data-bs-toggle="tab"
                             data-bs-target="#subscribe-tab-pane" type="button" role="tab" aria-controls="subscribe-tab"
                             aria-selected="false">Subscribe</a>
                     </li>
@@ -57,7 +55,7 @@
             </div>
             <!-- <ul class="nav nav-tabs" id="myTab" role="tablist"> -->
             <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
+                <input class="form-control me-2 sample-input" type="search" placeholder="Search" aria-label="Search"
                     id="sample-search">
                 <button class="btn" type="submit" id="sample-search-toggle">
                     <img src="resource/static/img/search-light.png">
@@ -321,6 +319,58 @@
                             <div class="mb-3">
                                 <label for="exampleImage" class="form-label">Enter your image : </label>
                                 <input type="file" class="form-control sample-input" id="exampleSelfie">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleOpinion" class="form-label">Are you interested in cricket : (optional)</label>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value=""
+                                        id="flexCheckIndeterminate">
+                                    <label class="form-check-label" for="flexCheckIndeterminate">
+                                        Yes
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value=""
+                                        id="flexCheckIndeterminate">
+                                    <label class="form-check-label" for="flexCheckIndeterminate">
+                                        No
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="contentDeliveryNumber" class="form-label">How many posts per day : </label>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                        id="flexRadioDefault1">
+                                    <label class="form-check-label" for="flexRadioDefault1">
+                                        5
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                        id="flexRadioDefault2" checked>
+                                    <label class="form-check-label" for="flexRadioDefault2">
+                                        10
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                        id="flexRadioDefault1">
+                                    <label class="form-check-label" for="flexRadioDefault1">
+                                        15
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                        id="flexRadioDefault2" checked>
+                                    <label class="form-check-label" for="flexRadioDefault2">
+                                        15+
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleAddress" class="form-label">Enter your address(optional) :</label>
+                                <textarea class="form-control smaple-textarea" id="exampleAddress"></textarea>
                             </div>
                             <div class="about-box">
                                 <div>

@@ -126,3 +126,13 @@ body {
 .sample-anchor-footer:hover {
     color: antiquewhite;
 }
+.smaple-textarea {
+    border-radius: 0%;
+}
+.sample-anchor-special {
+    color: yellowgreen !important;   
+}
+.sample-anchor-special:hover {
+    color: #000000 !important;
+    background-color: white;
+}
